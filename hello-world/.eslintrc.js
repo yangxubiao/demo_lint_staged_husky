@@ -6,16 +6,16 @@ module.exports = {
     node: true,
   },
   extends: [
-    'eslint:recommended',
-    'plugin:vue/essential',
-    'plugin:prettier/recommended', // 新增
+    "eslint:recommended",
+    "plugin:vue/essential",
+    "plugin:prettier/recommended", // 新增
   ],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
-  plugins: ['vue'],
+  plugins: ["vue"],
   rules: {
-    quotes: ['error', 'single'],
+    quotes: ["error", "single"],
   },
 };
