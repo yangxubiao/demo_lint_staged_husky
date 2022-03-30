@@ -8,6 +8,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue';
 const a = '111';
+const b = '111';
 export default {
   name: 'App',
   components: {
