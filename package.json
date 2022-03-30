@@ -16,8 +16,7 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "pre-add": "lint-staged",
-      "pre-push": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "pre-push": "lint-staged"
     }
   },
   "lint-staged": {
